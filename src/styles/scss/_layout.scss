@@ -1,0 +1,29 @@
+.layout {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.bg {
+  background-color: rgb(10, 10, 42);
+}
+
+nav {
+  padding: 12px 2rem;
+  & a {
+    text-decoration: none;
+  }
+}
+
+.removebtn {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.addtopic {
+  width: fit-content !important;
+}
