@@ -115,7 +115,6 @@ export async function DELETE(req, res) {
     return res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 }
-w;
 
 // Default export for the Next.js API route
 export default async function handler(req, res) {
