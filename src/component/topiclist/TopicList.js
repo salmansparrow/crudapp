@@ -11,7 +11,7 @@ function TopicList() {
   useEffect(() => {
     async function fetchTopics() {
       try {
-        const data = await getData("/topics/route"); // Adjust the endpoint path as necessary
+        const data = await getData("/api/topics/route"); // Adjust the endpoint path as necessary
         console.log(data);
 
         setTopics(data.topics); // Adjust based on your API response structure
